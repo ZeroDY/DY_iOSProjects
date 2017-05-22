@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "193041D41ECEE1BB00EE9476"
-               BuildableName = "DYTestProject.app"
-               BlueprintName = "DYTestProject"
+               BlueprintIdentifier = "1930421E1ECEE28700EE9476"
+               BuildableName = "DYTestProject_UAT.app"
+               BlueprintName = "DYTestProject_UAT"
                ReferencedContainer = "container:DYTestProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,33 +28,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "193041F01ECEE1BB00EE9476"
-               BuildableName = "DYTestProjectTests.xctest"
-               BlueprintName = "DYTestProjectTests"
-               ReferencedContainer = "container:DYTestProject.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "193041FB1ECEE1BB00EE9476"
-               BuildableName = "DYTestProjectUITests.xctest"
-               BlueprintName = "DYTestProjectUITests"
-               ReferencedContainer = "container:DYTestProject.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "193041D41ECEE1BB00EE9476"
-            BuildableName = "DYTestProject.app"
-            BlueprintName = "DYTestProject"
+            BlueprintIdentifier = "1930421E1ECEE28700EE9476"
+            BuildableName = "DYTestProject_UAT.app"
+            BlueprintName = "DYTestProject_UAT"
             ReferencedContainer = "container:DYTestProject.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "193041D41ECEE1BB00EE9476"
-            BuildableName = "DYTestProject.app"
-            BlueprintName = "DYTestProject"
+            BlueprintIdentifier = "1930421E1ECEE28700EE9476"
+            BuildableName = "DYTestProject_UAT.app"
+            BlueprintName = "DYTestProject_UAT"
             ReferencedContainer = "container:DYTestProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -101,9 +81,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "193041D41ECEE1BB00EE9476"
-            BuildableName = "DYTestProject.app"
-            BlueprintName = "DYTestProject"
+            BlueprintIdentifier = "1930421E1ECEE28700EE9476"
+            BuildableName = "DYTestProject_UAT.app"
+            BlueprintName = "DYTestProject_UAT"
             ReferencedContainer = "container:DYTestProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

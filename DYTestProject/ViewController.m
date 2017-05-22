@@ -8,6 +8,17 @@
 
 #import "ViewController.h"
 
+#if DEV
+#define SERVER_URL @"这是DEV环境"
+#define API_TOKEN @"qerqwerqw"
+#elif UAT
+#define SERVER_URL @"这是UAT环境"
+#define API_TOKEN @"DI2023409jf90ew"
+#else
+#define SERVER_URL @"这是正式环境"
+#define API_TOKEN @"71a629j0f090232"
+#endif
+
 @interface ViewController ()
 
 @end
@@ -17,6 +28,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%@ --- %@",SERVER_URL,API_TOKEN);
 }
 
 
