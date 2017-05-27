@@ -14,6 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
   - IQKeyboardManager (4.0.9)
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
@@ -35,6 +38,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
+  - FMDB (~> 2.6.2)
   - IQKeyboardManager (~> 4.0.9)
   - Masonry (~> 1.0.2)
   - MBProgressHUD (~> 1.0.0)
@@ -49,6 +53,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
@@ -63,6 +68,6 @@ SPEC CHECKSUMS:
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: fecaa0594d83021af5a3a247c83780cd5be0d88d
+PODFILE CHECKSUM: 906988875a4bffd4ff35ec9966f12f893a6a2af2
 
 COCOAPODS: 1.2.1

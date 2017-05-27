@@ -114,6 +114,7 @@
 		19C3A1A91ECEFCE1004464D4 /* UINavigationController+ZDYHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZDYHook.m"; sourceTree = "<group>"; };
 		19C3A1AA1ECEFCE1004464D4 /* UIViewController+ZDYHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZDYHook.h"; sourceTree = "<group>"; };
 		19C3A1AB1ECEFCE1004464D4 /* UIViewController+ZDYHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZDYHook.m"; sourceTree = "<group>"; };
+		19CB6F291ED9698A0021C5F3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		2F38D0E716302EA1D75D6EE4 /* libPods-DYTestProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DYTestProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35897736E8F9691FA13E9F99 /* Pods-DYTestProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYTestProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYTestProjectUITests/Pods-DYTestProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4DDCE665C9041DA55073F89C /* libPods-DYTestProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DYTestProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,18 +202,13 @@
 		193041D71ECEE1BB00EE9476 /* DYTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				19CB6F281ED95C250021C5F3 /* OCRTest */,
 				19C3A1A11ECEFCE1004464D4 /* DYRequestLog */,
 				193041DB1ECEE1BB00EE9476 /* AppDelegate.h */,
 				193041DC1ECEE1BB00EE9476 /* AppDelegate.m */,
 				193041DE1ECEE1BB00EE9476 /* ViewController.h */,
 				193041DF1ECEE1BB00EE9476 /* ViewController.m */,
 				193041E11ECEE1BB00EE9476 /* Main.storyboard */,
-				193041E71ECEE1BB00EE9476 /* Assets.xcassets */,
-				193041E91ECEE1BB00EE9476 /* LaunchScreen.storyboard */,
-				193041EC1ECEE1BB00EE9476 /* Info.plist */,
-				1930422E1ECEEFB500EE9476 /* DYTestProject_DEV.plist */,
-				1930422F1ECEEFB500EE9476 /* DYTestProject_UAT.plist */,
-				193041E41ECEE1BB00EE9476 /* DYTestProject.xcdatamodeld */,
 				193041D81ECEE1BB00EE9476 /* Supporting Files */,
 			);
 			path = DYTestProject;
@@ -222,6 +218,13 @@
 			isa = PBXGroup;
 			children = (
 				193041D91ECEE1BB00EE9476 /* main.m */,
+				193041E91ECEE1BB00EE9476 /* LaunchScreen.storyboard */,
+				193041E71ECEE1BB00EE9476 /* Assets.xcassets */,
+				193041EC1ECEE1BB00EE9476 /* Info.plist */,
+				1930422E1ECEEFB500EE9476 /* DYTestProject_DEV.plist */,
+				1930422F1ECEEFB500EE9476 /* DYTestProject_UAT.plist */,
+				193041E41ECEE1BB00EE9476 /* DYTestProject.xcdatamodeld */,
+				19CB6F291ED9698A0021C5F3 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -259,6 +262,13 @@
 				19C3A1AB1ECEFCE1004464D4 /* UIViewController+ZDYHook.m */,
 			);
 			path = DYRequestLog;
+			sourceTree = "<group>";
+		};
+		19CB6F281ED95C250021C5F3 /* OCRTest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = OCRTest;
 			sourceTree = "<group>";
 		};
 		23CC3421337C8776C04C4811 /* Frameworks */ = {
@@ -934,6 +944,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y52E493QH5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DYTestProject/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"APPSTORE=1",
@@ -951,6 +962,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y52E493QH5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DYTestProject/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"APPSTORE=1",
@@ -1022,6 +1034,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDEV;
 				DEVELOPMENT_TEAM = Y52E493QH5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DYTestProject/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEV=1",
@@ -1039,6 +1052,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDEV;
 				DEVELOPMENT_TEAM = Y52E493QH5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DYTestProject/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEV=1",
 					"$(inherited)",
@@ -1056,6 +1070,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconUAT;
 				DEVELOPMENT_TEAM = Y52E493QH5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DYTestProject/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"UAT=1",
@@ -1073,6 +1088,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconUAT;
 				DEVELOPMENT_TEAM = Y52E493QH5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DYTestProject/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"UAT=1",
 					"$(inherited)",

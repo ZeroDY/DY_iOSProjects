@@ -17,7 +17,9 @@ target 'DYTestProject' do
     pod 'UITableView+FDTemplateLayoutCell', '~> 1.5.beta'
     pod 'MBProgressHUD', '~> 1.0.0'
     pod 'YTKNetwork', '~> 2.0.3'
+    pod 'FMDB', '~> 2.6.2'
     pod 'ProgressHUD'
+    
 
   target 'DYTestProjectTests' do
     inherit! :search_paths
@@ -47,6 +49,7 @@ target 'DYTestProject_DEV' do
     pod 'UITableView+FDTemplateLayoutCell', '~> 1.5.beta'
     pod 'MBProgressHUD', '~> 1.0.0'
     pod 'YTKNetwork', '~> 2.0.3'
+    pod 'FMDB', '~> 2.6.2'
     pod 'ProgressHUD'
 
 end
@@ -67,6 +70,7 @@ target 'DYTestProject_UAT' do
     pod 'UITableView+FDTemplateLayoutCell', '~> 1.5.beta'
     pod 'MBProgressHUD', '~> 1.0.0'
     pod 'YTKNetwork', '~> 2.0.3'
+    pod 'FMDB', '~> 2.6.2'
     pod 'ProgressHUD'
 
 end
