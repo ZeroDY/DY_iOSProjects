@@ -29,6 +29,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"%@ --- %@",SERVER_URL,API_TOKEN);
+    
+    DYViewBorderRadius(self.view, 20, 2, [UIColor redColor]);
 }
 
 

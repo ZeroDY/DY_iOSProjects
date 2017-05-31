@@ -104,6 +104,7 @@
 		1930422C1ECEE28700EE9476 /* DYTestProject_UAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYTestProject_UAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1930422E1ECEEFB500EE9476 /* DYTestProject_DEV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DYTestProject_DEV.plist; sourceTree = "<group>"; };
 		1930422F1ECEEFB500EE9476 /* DYTestProject_UAT.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DYTestProject_UAT.plist; sourceTree = "<group>"; };
+		1944B5DB1EDE8F280087FFA3 /* DYCommenMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYCommenMacros.h; sourceTree = "<group>"; };
 		19C3A1A21ECEFCE1004464D4 /* SRRequestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRequestLog.h; sourceTree = "<group>"; };
 		19C3A1A31ECEFCE1004464D4 /* SRRequestLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRequestLog.m; sourceTree = "<group>"; };
 		19C3A1A41ECEFCE1004464D4 /* SRRequestLogFM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRequestLogFM.h; sourceTree = "<group>"; };
@@ -202,6 +203,7 @@
 		193041D71ECEE1BB00EE9476 /* DYTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				1944B5DB1EDE8F280087FFA3 /* DYCommenMacros.h */,
 				19CB6F281ED95C250021C5F3 /* OCRTest */,
 				19C3A1A11ECEFCE1004464D4 /* DYRequestLog */,
 				193041DB1ECEE1BB00EE9476 /* AppDelegate.h */,
