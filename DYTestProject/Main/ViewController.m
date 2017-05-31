@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "User.h"
+//#import <YYModel.h>
 
 #if DEV
 #define SERVER_URL @"这是DEV环境"
@@ -26,11 +28,16 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    kStartTime;
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"%@ --- %@",SERVER_URL,API_TOKEN);
     
     DYViewBorderRadius(self.view, 20, 2, [UIColor redColor]);
+    kEndTimeNSLog(@"kaishi");
+    kEndTimeNSLog(@"jieshu");
+    
+//    User *user = [User yy_modelWithJSON:json];
 }
 
 

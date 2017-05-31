@@ -9,23 +9,17 @@
 /* Begin PBXBuildFile section */
 		087E3803A37BB0B970C84795 /* libPods-DYTestProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDCE665C9041DA55073F89C /* libPods-DYTestProjectUITests.a */; };
 		193041DA1ECEE1BB00EE9476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 193041D91ECEE1BB00EE9476 /* main.m */; };
-		193041DD1ECEE1BB00EE9476 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 193041DC1ECEE1BB00EE9476 /* AppDelegate.m */; };
-		193041E01ECEE1BB00EE9476 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 193041DF1ECEE1BB00EE9476 /* ViewController.m */; };
 		193041E31ECEE1BB00EE9476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193041E11ECEE1BB00EE9476 /* Main.storyboard */; };
 		193041E61ECEE1BB00EE9476 /* DYTestProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 193041E41ECEE1BB00EE9476 /* DYTestProject.xcdatamodeld */; };
 		193041E81ECEE1BB00EE9476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 193041E71ECEE1BB00EE9476 /* Assets.xcassets */; };
 		193041EB1ECEE1BB00EE9476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193041E91ECEE1BB00EE9476 /* LaunchScreen.storyboard */; };
 		193041F61ECEE1BB00EE9476 /* DYTestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 193041F51ECEE1BB00EE9476 /* DYTestProjectTests.m */; };
 		193042011ECEE1BB00EE9476 /* DYTestProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 193042001ECEE1BB00EE9476 /* DYTestProjectUITests.m */; };
-		193042101ECEE1E000EE9476 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 193041DF1ECEE1BB00EE9476 /* ViewController.m */; };
-		193042111ECEE1E000EE9476 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 193041DC1ECEE1BB00EE9476 /* AppDelegate.m */; };
 		193042121ECEE1E000EE9476 /* DYTestProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 193041E41ECEE1BB00EE9476 /* DYTestProject.xcdatamodeld */; };
 		193042131ECEE1E000EE9476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 193041D91ECEE1BB00EE9476 /* main.m */; };
 		193042161ECEE1E000EE9476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193041E91ECEE1BB00EE9476 /* LaunchScreen.storyboard */; };
 		193042171ECEE1E000EE9476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 193041E71ECEE1BB00EE9476 /* Assets.xcassets */; };
 		193042181ECEE1E000EE9476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193041E11ECEE1BB00EE9476 /* Main.storyboard */; };
-		193042201ECEE28700EE9476 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 193041DF1ECEE1BB00EE9476 /* ViewController.m */; };
-		193042211ECEE28700EE9476 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 193041DC1ECEE1BB00EE9476 /* AppDelegate.m */; };
 		193042221ECEE28700EE9476 /* DYTestProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 193041E41ECEE1BB00EE9476 /* DYTestProject.xcdatamodeld */; };
 		193042231ECEE28700EE9476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 193041D91ECEE1BB00EE9476 /* main.m */; };
 		193042261ECEE28700EE9476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193041E91ECEE1BB00EE9476 /* LaunchScreen.storyboard */; };
@@ -33,31 +27,51 @@
 		193042281ECEE28700EE9476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193041E11ECEE1BB00EE9476 /* Main.storyboard */; };
 		193042301ECEEFB500EE9476 /* DYTestProject_DEV.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1930422E1ECEEFB500EE9476 /* DYTestProject_DEV.plist */; };
 		193042311ECEEFB500EE9476 /* DYTestProject_UAT.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1930422F1ECEEFB500EE9476 /* DYTestProject_UAT.plist */; };
-		19C3A1AC1ECEFCE1004464D4 /* SRRequestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A31ECEFCE1004464D4 /* SRRequestLog.m */; };
-		19C3A1AD1ECEFCE1004464D4 /* SRRequestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A31ECEFCE1004464D4 /* SRRequestLog.m */; };
-		19C3A1AE1ECEFCE1004464D4 /* SRRequestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A31ECEFCE1004464D4 /* SRRequestLog.m */; };
-		19C3A1AF1ECEFCE1004464D4 /* SRRequestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A31ECEFCE1004464D4 /* SRRequestLog.m */; };
-		19C3A1B01ECEFCE1004464D4 /* SRRequestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A31ECEFCE1004464D4 /* SRRequestLog.m */; };
-		19C3A1B11ECEFCE1004464D4 /* SRRequestLogFM.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A51ECEFCE1004464D4 /* SRRequestLogFM.m */; };
-		19C3A1B21ECEFCE1004464D4 /* SRRequestLogFM.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A51ECEFCE1004464D4 /* SRRequestLogFM.m */; };
-		19C3A1B31ECEFCE1004464D4 /* SRRequestLogFM.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A51ECEFCE1004464D4 /* SRRequestLogFM.m */; };
-		19C3A1B41ECEFCE1004464D4 /* SRRequestLogFM.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A51ECEFCE1004464D4 /* SRRequestLogFM.m */; };
-		19C3A1B51ECEFCE1004464D4 /* SRRequestLogFM.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A51ECEFCE1004464D4 /* SRRequestLogFM.m */; };
-		19C3A1B61ECEFCE1004464D4 /* UIApplication+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A71ECEFCE1004464D4 /* UIApplication+ZDYHook.m */; };
-		19C3A1B71ECEFCE1004464D4 /* UIApplication+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A71ECEFCE1004464D4 /* UIApplication+ZDYHook.m */; };
-		19C3A1B81ECEFCE1004464D4 /* UIApplication+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A71ECEFCE1004464D4 /* UIApplication+ZDYHook.m */; };
-		19C3A1B91ECEFCE1004464D4 /* UIApplication+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A71ECEFCE1004464D4 /* UIApplication+ZDYHook.m */; };
-		19C3A1BA1ECEFCE1004464D4 /* UIApplication+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A71ECEFCE1004464D4 /* UIApplication+ZDYHook.m */; };
-		19C3A1BB1ECEFCE1004464D4 /* UINavigationController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A91ECEFCE1004464D4 /* UINavigationController+ZDYHook.m */; };
-		19C3A1BC1ECEFCE1004464D4 /* UINavigationController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A91ECEFCE1004464D4 /* UINavigationController+ZDYHook.m */; };
-		19C3A1BD1ECEFCE1004464D4 /* UINavigationController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A91ECEFCE1004464D4 /* UINavigationController+ZDYHook.m */; };
-		19C3A1BE1ECEFCE1004464D4 /* UINavigationController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A91ECEFCE1004464D4 /* UINavigationController+ZDYHook.m */; };
-		19C3A1BF1ECEFCE1004464D4 /* UINavigationController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1A91ECEFCE1004464D4 /* UINavigationController+ZDYHook.m */; };
-		19C3A1C01ECEFCE1004464D4 /* UIViewController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1AB1ECEFCE1004464D4 /* UIViewController+ZDYHook.m */; };
-		19C3A1C11ECEFCE1004464D4 /* UIViewController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1AB1ECEFCE1004464D4 /* UIViewController+ZDYHook.m */; };
-		19C3A1C21ECEFCE1004464D4 /* UIViewController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1AB1ECEFCE1004464D4 /* UIViewController+ZDYHook.m */; };
-		19C3A1C31ECEFCE1004464D4 /* UIViewController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1AB1ECEFCE1004464D4 /* UIViewController+ZDYHook.m */; };
-		19C3A1C41ECEFCE1004464D4 /* UIViewController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A1AB1ECEFCE1004464D4 /* UIViewController+ZDYHook.m */; };
+		1944B6A51EDEBA000087FFA3 /* RequestLogDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1944B68D1EDEBA000087FFA3 /* RequestLogDB.sqlite */; };
+		1944B6A61EDEBA000087FFA3 /* RequestLogDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1944B68D1EDEBA000087FFA3 /* RequestLogDB.sqlite */; };
+		1944B6A71EDEBA000087FFA3 /* RequestLogDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1944B68D1EDEBA000087FFA3 /* RequestLogDB.sqlite */; };
+		1944B6A81EDEBA000087FFA3 /* RequestLogDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1944B68D1EDEBA000087FFA3 /* RequestLogDB.sqlite */; };
+		1944B6A91EDEBA000087FFA3 /* RequestLogDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1944B68D1EDEBA000087FFA3 /* RequestLogDB.sqlite */; };
+		1944B6AA1EDEBA000087FFA3 /* SRRequestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B68F1EDEBA000087FFA3 /* SRRequestLog.m */; };
+		1944B6AB1EDEBA000087FFA3 /* SRRequestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B68F1EDEBA000087FFA3 /* SRRequestLog.m */; };
+		1944B6AC1EDEBA000087FFA3 /* SRRequestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B68F1EDEBA000087FFA3 /* SRRequestLog.m */; };
+		1944B6AD1EDEBA000087FFA3 /* SRRequestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B68F1EDEBA000087FFA3 /* SRRequestLog.m */; };
+		1944B6AE1EDEBA000087FFA3 /* SRRequestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B68F1EDEBA000087FFA3 /* SRRequestLog.m */; };
+		1944B6AF1EDEBA010087FFA3 /* SRRequestLogFM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6911EDEBA000087FFA3 /* SRRequestLogFM.m */; };
+		1944B6B01EDEBA010087FFA3 /* SRRequestLogFM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6911EDEBA000087FFA3 /* SRRequestLogFM.m */; };
+		1944B6B11EDEBA010087FFA3 /* SRRequestLogFM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6911EDEBA000087FFA3 /* SRRequestLogFM.m */; };
+		1944B6B21EDEBA010087FFA3 /* SRRequestLogFM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6911EDEBA000087FFA3 /* SRRequestLogFM.m */; };
+		1944B6B31EDEBA010087FFA3 /* SRRequestLogFM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6911EDEBA000087FFA3 /* SRRequestLogFM.m */; };
+		1944B6B41EDEBA010087FFA3 /* UIApplication+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6931EDEBA000087FFA3 /* UIApplication+ZDYHook.m */; };
+		1944B6B51EDEBA010087FFA3 /* UIApplication+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6931EDEBA000087FFA3 /* UIApplication+ZDYHook.m */; };
+		1944B6B61EDEBA010087FFA3 /* UIApplication+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6931EDEBA000087FFA3 /* UIApplication+ZDYHook.m */; };
+		1944B6B71EDEBA010087FFA3 /* UIApplication+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6931EDEBA000087FFA3 /* UIApplication+ZDYHook.m */; };
+		1944B6B81EDEBA010087FFA3 /* UIApplication+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6931EDEBA000087FFA3 /* UIApplication+ZDYHook.m */; };
+		1944B6B91EDEBA010087FFA3 /* UINavigationController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6951EDEBA000087FFA3 /* UINavigationController+ZDYHook.m */; };
+		1944B6BA1EDEBA010087FFA3 /* UINavigationController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6951EDEBA000087FFA3 /* UINavigationController+ZDYHook.m */; };
+		1944B6BB1EDEBA010087FFA3 /* UINavigationController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6951EDEBA000087FFA3 /* UINavigationController+ZDYHook.m */; };
+		1944B6BC1EDEBA010087FFA3 /* UINavigationController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6951EDEBA000087FFA3 /* UINavigationController+ZDYHook.m */; };
+		1944B6BD1EDEBA010087FFA3 /* UINavigationController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6951EDEBA000087FFA3 /* UINavigationController+ZDYHook.m */; };
+		1944B6BE1EDEBA010087FFA3 /* UIViewController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6971EDEBA000087FFA3 /* UIViewController+ZDYHook.m */; };
+		1944B6BF1EDEBA010087FFA3 /* UIViewController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6971EDEBA000087FFA3 /* UIViewController+ZDYHook.m */; };
+		1944B6C01EDEBA010087FFA3 /* UIViewController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6971EDEBA000087FFA3 /* UIViewController+ZDYHook.m */; };
+		1944B6C11EDEBA010087FFA3 /* UIViewController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6971EDEBA000087FFA3 /* UIViewController+ZDYHook.m */; };
+		1944B6C21EDEBA010087FFA3 /* UIViewController+ZDYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6971EDEBA000087FFA3 /* UIViewController+ZDYHook.m */; };
+		1944B6C31EDEBA010087FFA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B69A1EDEBA000087FFA3 /* AppDelegate.m */; };
+		1944B6C41EDEBA010087FFA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B69A1EDEBA000087FFA3 /* AppDelegate.m */; };
+		1944B6C51EDEBA010087FFA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B69A1EDEBA000087FFA3 /* AppDelegate.m */; };
+		1944B6C61EDEBA010087FFA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B69A1EDEBA000087FFA3 /* AppDelegate.m */; };
+		1944B6C71EDEBA010087FFA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B69A1EDEBA000087FFA3 /* AppDelegate.m */; };
+		1944B6C81EDEBA010087FFA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6A11EDEBA000087FFA3 /* ViewController.m */; };
+		1944B6C91EDEBA010087FFA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6A11EDEBA000087FFA3 /* ViewController.m */; };
+		1944B6CA1EDEBA010087FFA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6A11EDEBA000087FFA3 /* ViewController.m */; };
+		1944B6CB1EDEBA010087FFA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6A11EDEBA000087FFA3 /* ViewController.m */; };
+		1944B6CC1EDEBA010087FFA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6A11EDEBA000087FFA3 /* ViewController.m */; };
+		1944B6CF1EDEBC7F0087FFA3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6CE1EDEBC7F0087FFA3 /* User.m */; };
+		1944B6D01EDEBC7F0087FFA3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6CE1EDEBC7F0087FFA3 /* User.m */; };
+		1944B6D11EDEBC7F0087FFA3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6CE1EDEBC7F0087FFA3 /* User.m */; };
+		1944B6D21EDEBC7F0087FFA3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6CE1EDEBC7F0087FFA3 /* User.m */; };
+		1944B6D31EDEBC7F0087FFA3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944B6CE1EDEBC7F0087FFA3 /* User.m */; };
 		206F944A1BD1C791CEBF51DD /* libPods-DYTestProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB6CA102438FAE5ACDB2D1B /* libPods-DYTestProject.a */; };
 		535126B38763B846F339A7F1 /* libPods-DYTestProject_DEV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E49F51787EAA101A47A7FA83 /* libPods-DYTestProject_DEV.a */; };
 		664D32B1CE1C5E1520DD402F /* libPods-DYTestProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F38D0E716302EA1D75D6EE4 /* libPods-DYTestProjectTests.a */; };
@@ -85,10 +99,6 @@
 		04036FDFDFA59470C5E64E43 /* Pods-DYTestProject_UAT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYTestProject_UAT.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYTestProject_UAT/Pods-DYTestProject_UAT.release.xcconfig"; sourceTree = "<group>"; };
 		193041D51ECEE1BB00EE9476 /* DYTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		193041D91ECEE1BB00EE9476 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		193041DB1ECEE1BB00EE9476 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		193041DC1ECEE1BB00EE9476 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		193041DE1ECEE1BB00EE9476 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		193041DF1ECEE1BB00EE9476 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		193041E21ECEE1BB00EE9476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		193041E51ECEE1BB00EE9476 /* DYTestProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DYTestProject.xcdatamodel; sourceTree = "<group>"; };
 		193041E71ECEE1BB00EE9476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,18 +114,25 @@
 		1930422C1ECEE28700EE9476 /* DYTestProject_UAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYTestProject_UAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1930422E1ECEEFB500EE9476 /* DYTestProject_DEV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DYTestProject_DEV.plist; sourceTree = "<group>"; };
 		1930422F1ECEEFB500EE9476 /* DYTestProject_UAT.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DYTestProject_UAT.plist; sourceTree = "<group>"; };
-		1944B5DB1EDE8F280087FFA3 /* DYCommenMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYCommenMacros.h; sourceTree = "<group>"; };
-		19C3A1A21ECEFCE1004464D4 /* SRRequestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRequestLog.h; sourceTree = "<group>"; };
-		19C3A1A31ECEFCE1004464D4 /* SRRequestLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRequestLog.m; sourceTree = "<group>"; };
-		19C3A1A41ECEFCE1004464D4 /* SRRequestLogFM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRequestLogFM.h; sourceTree = "<group>"; };
-		19C3A1A51ECEFCE1004464D4 /* SRRequestLogFM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRequestLogFM.m; sourceTree = "<group>"; };
-		19C3A1A61ECEFCE1004464D4 /* UIApplication+ZDYHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+ZDYHook.h"; sourceTree = "<group>"; };
-		19C3A1A71ECEFCE1004464D4 /* UIApplication+ZDYHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+ZDYHook.m"; sourceTree = "<group>"; };
-		19C3A1A81ECEFCE1004464D4 /* UINavigationController+ZDYHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZDYHook.h"; sourceTree = "<group>"; };
-		19C3A1A91ECEFCE1004464D4 /* UINavigationController+ZDYHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZDYHook.m"; sourceTree = "<group>"; };
-		19C3A1AA1ECEFCE1004464D4 /* UIViewController+ZDYHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZDYHook.h"; sourceTree = "<group>"; };
-		19C3A1AB1ECEFCE1004464D4 /* UIViewController+ZDYHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZDYHook.m"; sourceTree = "<group>"; };
-		19CB6F291ED9698A0021C5F3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1944B6831EDEB7620087FFA3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1944B6891EDEBA000087FFA3 /* DYCommenMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYCommenMacros.h; sourceTree = "<group>"; };
+		1944B68D1EDEBA000087FFA3 /* RequestLogDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = RequestLogDB.sqlite; sourceTree = "<group>"; };
+		1944B68E1EDEBA000087FFA3 /* SRRequestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRequestLog.h; sourceTree = "<group>"; };
+		1944B68F1EDEBA000087FFA3 /* SRRequestLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRequestLog.m; sourceTree = "<group>"; };
+		1944B6901EDEBA000087FFA3 /* SRRequestLogFM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRequestLogFM.h; sourceTree = "<group>"; };
+		1944B6911EDEBA000087FFA3 /* SRRequestLogFM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRequestLogFM.m; sourceTree = "<group>"; };
+		1944B6921EDEBA000087FFA3 /* UIApplication+ZDYHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+ZDYHook.h"; sourceTree = "<group>"; };
+		1944B6931EDEBA000087FFA3 /* UIApplication+ZDYHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+ZDYHook.m"; sourceTree = "<group>"; };
+		1944B6941EDEBA000087FFA3 /* UINavigationController+ZDYHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZDYHook.h"; sourceTree = "<group>"; };
+		1944B6951EDEBA000087FFA3 /* UINavigationController+ZDYHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZDYHook.m"; sourceTree = "<group>"; };
+		1944B6961EDEBA000087FFA3 /* UIViewController+ZDYHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZDYHook.h"; sourceTree = "<group>"; };
+		1944B6971EDEBA000087FFA3 /* UIViewController+ZDYHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZDYHook.m"; sourceTree = "<group>"; };
+		1944B6991EDEBA000087FFA3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1944B69A1EDEBA000087FFA3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1944B6A01EDEBA000087FFA3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1944B6A11EDEBA000087FFA3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1944B6CD1EDEBC7F0087FFA3 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		1944B6CE1EDEBC7F0087FFA3 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		2F38D0E716302EA1D75D6EE4 /* libPods-DYTestProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DYTestProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35897736E8F9691FA13E9F99 /* Pods-DYTestProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYTestProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYTestProjectUITests/Pods-DYTestProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4DDCE665C9041DA55073F89C /* libPods-DYTestProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DYTestProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,14 +220,11 @@
 		193041D71ECEE1BB00EE9476 /* DYTestProject */ = {
 			isa = PBXGroup;
 			children = (
-				1944B5DB1EDE8F280087FFA3 /* DYCommenMacros.h */,
-				19CB6F281ED95C250021C5F3 /* OCRTest */,
-				19C3A1A11ECEFCE1004464D4 /* DYRequestLog */,
-				193041DB1ECEE1BB00EE9476 /* AppDelegate.h */,
-				193041DC1ECEE1BB00EE9476 /* AppDelegate.m */,
-				193041DE1ECEE1BB00EE9476 /* ViewController.h */,
-				193041DF1ECEE1BB00EE9476 /* ViewController.m */,
-				193041E11ECEE1BB00EE9476 /* Main.storyboard */,
+				1944B6981EDEBA000087FFA3 /* Main */,
+				1944B6841EDEBA000087FFA3 /* Expand */,
+				1944B6A21EDEBA000087FFA3 /* Other */,
+				1944B6A31EDEBA000087FFA3 /* Resource */,
+				1944B6A41EDEBA000087FFA3 /* ThirdParty */,
 				193041D81ECEE1BB00EE9476 /* Supporting Files */,
 			);
 			path = DYTestProject;
@@ -219,14 +233,15 @@
 		193041D81ECEE1BB00EE9476 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1944B6831EDEB7620087FFA3 /* PrefixHeader.pch */,
 				193041D91ECEE1BB00EE9476 /* main.m */,
+				193041E11ECEE1BB00EE9476 /* Main.storyboard */,
 				193041E91ECEE1BB00EE9476 /* LaunchScreen.storyboard */,
 				193041E71ECEE1BB00EE9476 /* Assets.xcassets */,
 				193041EC1ECEE1BB00EE9476 /* Info.plist */,
 				1930422E1ECEEFB500EE9476 /* DYTestProject_DEV.plist */,
 				1930422F1ECEEFB500EE9476 /* DYTestProject_UAT.plist */,
 				193041E41ECEE1BB00EE9476 /* DYTestProject.xcdatamodeld */,
-				19CB6F291ED9698A0021C5F3 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -249,28 +264,153 @@
 			path = DYTestProjectUITests;
 			sourceTree = "<group>";
 		};
-		19C3A1A11ECEFCE1004464D4 /* DYRequestLog */ = {
+		1944B6841EDEBA000087FFA3 /* Expand */ = {
 			isa = PBXGroup;
 			children = (
-				19C3A1A21ECEFCE1004464D4 /* SRRequestLog.h */,
-				19C3A1A31ECEFCE1004464D4 /* SRRequestLog.m */,
-				19C3A1A41ECEFCE1004464D4 /* SRRequestLogFM.h */,
-				19C3A1A51ECEFCE1004464D4 /* SRRequestLogFM.m */,
-				19C3A1A61ECEFCE1004464D4 /* UIApplication+ZDYHook.h */,
-				19C3A1A71ECEFCE1004464D4 /* UIApplication+ZDYHook.m */,
-				19C3A1A81ECEFCE1004464D4 /* UINavigationController+ZDYHook.h */,
-				19C3A1A91ECEFCE1004464D4 /* UINavigationController+ZDYHook.m */,
-				19C3A1AA1ECEFCE1004464D4 /* UIViewController+ZDYHook.h */,
-				19C3A1AB1ECEFCE1004464D4 /* UIViewController+ZDYHook.m */,
+				1944B6851EDEBA000087FFA3 /* Category */,
+				1944B6861EDEBA000087FFA3 /* Const */,
+				1944B6871EDEBA000087FFA3 /* DB */,
+				1944B6881EDEBA000087FFA3 /* Macros */,
+				1944B68A1EDEBA000087FFA3 /* Network */,
+				1944B68B1EDEBA000087FFA3 /* Tool */,
 			);
-			path = DYRequestLog;
+			path = Expand;
 			sourceTree = "<group>";
 		};
-		19CB6F281ED95C250021C5F3 /* OCRTest */ = {
+		1944B6851EDEBA000087FFA3 /* Category */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = OCRTest;
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1944B6861EDEBA000087FFA3 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		1944B6871EDEBA000087FFA3 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		1944B6881EDEBA000087FFA3 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				1944B6891EDEBA000087FFA3 /* DYCommenMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		1944B68A1EDEBA000087FFA3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1944B68B1EDEBA000087FFA3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1944B68C1EDEBA000087FFA3 /* DYNetworkRequestLogs */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		1944B68C1EDEBA000087FFA3 /* DYNetworkRequestLogs */ = {
+			isa = PBXGroup;
+			children = (
+				1944B68D1EDEBA000087FFA3 /* RequestLogDB.sqlite */,
+				1944B68E1EDEBA000087FFA3 /* SRRequestLog.h */,
+				1944B68F1EDEBA000087FFA3 /* SRRequestLog.m */,
+				1944B6901EDEBA000087FFA3 /* SRRequestLogFM.h */,
+				1944B6911EDEBA000087FFA3 /* SRRequestLogFM.m */,
+				1944B6921EDEBA000087FFA3 /* UIApplication+ZDYHook.h */,
+				1944B6931EDEBA000087FFA3 /* UIApplication+ZDYHook.m */,
+				1944B6941EDEBA000087FFA3 /* UINavigationController+ZDYHook.h */,
+				1944B6951EDEBA000087FFA3 /* UINavigationController+ZDYHook.m */,
+				1944B6961EDEBA000087FFA3 /* UIViewController+ZDYHook.h */,
+				1944B6971EDEBA000087FFA3 /* UIViewController+ZDYHook.m */,
+			);
+			path = DYNetworkRequestLogs;
+			sourceTree = "<group>";
+		};
+		1944B6981EDEBA000087FFA3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1944B6991EDEBA000087FFA3 /* AppDelegate.h */,
+				1944B69A1EDEBA000087FFA3 /* AppDelegate.m */,
+				1944B69B1EDEBA000087FFA3 /* Common */,
+				1944B6A01EDEBA000087FFA3 /* ViewController.h */,
+				1944B6A11EDEBA000087FFA3 /* ViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1944B69B1EDEBA000087FFA3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1944B69C1EDEBA000087FFA3 /* Controller */,
+				1944B69D1EDEBA000087FFA3 /* Model */,
+				1944B69E1EDEBA000087FFA3 /* Other */,
+				1944B69F1EDEBA000087FFA3 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1944B69C1EDEBA000087FFA3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1944B69D1EDEBA000087FFA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1944B6CD1EDEBC7F0087FFA3 /* User.h */,
+				1944B6CE1EDEBC7F0087FFA3 /* User.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1944B69E1EDEBA000087FFA3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1944B69F1EDEBA000087FFA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1944B6A21EDEBA000087FFA3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1944B6A31EDEBA000087FFA3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1944B6A41EDEBA000087FFA3 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
 			sourceTree = "<group>";
 		};
 		23CC3421337C8776C04C4811 /* Frameworks */ = {
@@ -472,6 +612,7 @@
 				193041E81ECEE1BB00EE9476 /* Assets.xcassets in Resources */,
 				193042311ECEEFB500EE9476 /* DYTestProject_UAT.plist in Resources */,
 				193041E31ECEE1BB00EE9476 /* Main.storyboard in Resources */,
+				1944B6A51EDEBA000087FFA3 /* RequestLogDB.sqlite in Resources */,
 				193042301ECEEFB500EE9476 /* DYTestProject_DEV.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +621,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1944B6A81EDEBA000087FFA3 /* RequestLogDB.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +629,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1944B6A91EDEBA000087FFA3 /* RequestLogDB.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +637,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1944B6A61EDEBA000087FFA3 /* RequestLogDB.sqlite in Resources */,
 				193042161ECEE1E000EE9476 /* LaunchScreen.storyboard in Resources */,
 				193042171ECEE1E000EE9476 /* Assets.xcassets in Resources */,
 				193042181ECEE1E000EE9476 /* Main.storyboard in Resources */,
@@ -504,6 +648,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1944B6A71EDEBA000087FFA3 /* RequestLogDB.sqlite in Resources */,
 				193042261ECEE28700EE9476 /* LaunchScreen.storyboard in Resources */,
 				193042271ECEE28700EE9476 /* Assets.xcassets in Resources */,
 				193042281ECEE28700EE9476 /* Main.storyboard in Resources */,
@@ -745,15 +890,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19C3A1BB1ECEFCE1004464D4 /* UINavigationController+ZDYHook.m in Sources */,
-				19C3A1B61ECEFCE1004464D4 /* UIApplication+ZDYHook.m in Sources */,
-				19C3A1C01ECEFCE1004464D4 /* UIViewController+ZDYHook.m in Sources */,
-				193041E01ECEE1BB00EE9476 /* ViewController.m in Sources */,
-				193041DD1ECEE1BB00EE9476 /* AppDelegate.m in Sources */,
+				1944B6CF1EDEBC7F0087FFA3 /* User.m in Sources */,
+				1944B6C81EDEBA010087FFA3 /* ViewController.m in Sources */,
+				1944B6B91EDEBA010087FFA3 /* UINavigationController+ZDYHook.m in Sources */,
+				1944B6B41EDEBA010087FFA3 /* UIApplication+ZDYHook.m in Sources */,
 				193041E61ECEE1BB00EE9476 /* DYTestProject.xcdatamodeld in Sources */,
 				193041DA1ECEE1BB00EE9476 /* main.m in Sources */,
-				19C3A1B11ECEFCE1004464D4 /* SRRequestLogFM.m in Sources */,
-				19C3A1AC1ECEFCE1004464D4 /* SRRequestLog.m in Sources */,
+				1944B6C31EDEBA010087FFA3 /* AppDelegate.m in Sources */,
+				1944B6BE1EDEBA010087FFA3 /* UIViewController+ZDYHook.m in Sources */,
+				1944B6AF1EDEBA010087FFA3 /* SRRequestLogFM.m in Sources */,
+				1944B6AA1EDEBA000087FFA3 /* SRRequestLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -762,11 +908,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				193041F61ECEE1BB00EE9476 /* DYTestProjectTests.m in Sources */,
-				19C3A1BE1ECEFCE1004464D4 /* UINavigationController+ZDYHook.m in Sources */,
-				19C3A1B41ECEFCE1004464D4 /* SRRequestLogFM.m in Sources */,
-				19C3A1AF1ECEFCE1004464D4 /* SRRequestLog.m in Sources */,
-				19C3A1B91ECEFCE1004464D4 /* UIApplication+ZDYHook.m in Sources */,
-				19C3A1C31ECEFCE1004464D4 /* UIViewController+ZDYHook.m in Sources */,
+				1944B6BC1EDEBA010087FFA3 /* UINavigationController+ZDYHook.m in Sources */,
+				1944B6D21EDEBC7F0087FFA3 /* User.m in Sources */,
+				1944B6CB1EDEBA010087FFA3 /* ViewController.m in Sources */,
+				1944B6B21EDEBA010087FFA3 /* SRRequestLogFM.m in Sources */,
+				1944B6AD1EDEBA000087FFA3 /* SRRequestLog.m in Sources */,
+				1944B6B71EDEBA010087FFA3 /* UIApplication+ZDYHook.m in Sources */,
+				1944B6C11EDEBA010087FFA3 /* UIViewController+ZDYHook.m in Sources */,
+				1944B6C61EDEBA010087FFA3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -775,11 +924,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				193042011ECEE1BB00EE9476 /* DYTestProjectUITests.m in Sources */,
-				19C3A1BF1ECEFCE1004464D4 /* UINavigationController+ZDYHook.m in Sources */,
-				19C3A1B51ECEFCE1004464D4 /* SRRequestLogFM.m in Sources */,
-				19C3A1B01ECEFCE1004464D4 /* SRRequestLog.m in Sources */,
-				19C3A1BA1ECEFCE1004464D4 /* UIApplication+ZDYHook.m in Sources */,
-				19C3A1C41ECEFCE1004464D4 /* UIViewController+ZDYHook.m in Sources */,
+				1944B6BD1EDEBA010087FFA3 /* UINavigationController+ZDYHook.m in Sources */,
+				1944B6D31EDEBC7F0087FFA3 /* User.m in Sources */,
+				1944B6CC1EDEBA010087FFA3 /* ViewController.m in Sources */,
+				1944B6B31EDEBA010087FFA3 /* SRRequestLogFM.m in Sources */,
+				1944B6AE1EDEBA000087FFA3 /* SRRequestLog.m in Sources */,
+				1944B6B81EDEBA010087FFA3 /* UIApplication+ZDYHook.m in Sources */,
+				1944B6C21EDEBA010087FFA3 /* UIViewController+ZDYHook.m in Sources */,
+				1944B6C71EDEBA010087FFA3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,15 +939,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19C3A1BC1ECEFCE1004464D4 /* UINavigationController+ZDYHook.m in Sources */,
-				19C3A1B71ECEFCE1004464D4 /* UIApplication+ZDYHook.m in Sources */,
-				19C3A1C11ECEFCE1004464D4 /* UIViewController+ZDYHook.m in Sources */,
-				193042101ECEE1E000EE9476 /* ViewController.m in Sources */,
-				193042111ECEE1E000EE9476 /* AppDelegate.m in Sources */,
+				1944B6D01EDEBC7F0087FFA3 /* User.m in Sources */,
+				1944B6C91EDEBA010087FFA3 /* ViewController.m in Sources */,
+				1944B6BA1EDEBA010087FFA3 /* UINavigationController+ZDYHook.m in Sources */,
+				1944B6B51EDEBA010087FFA3 /* UIApplication+ZDYHook.m in Sources */,
 				193042121ECEE1E000EE9476 /* DYTestProject.xcdatamodeld in Sources */,
 				193042131ECEE1E000EE9476 /* main.m in Sources */,
-				19C3A1B21ECEFCE1004464D4 /* SRRequestLogFM.m in Sources */,
-				19C3A1AD1ECEFCE1004464D4 /* SRRequestLog.m in Sources */,
+				1944B6C41EDEBA010087FFA3 /* AppDelegate.m in Sources */,
+				1944B6BF1EDEBA010087FFA3 /* UIViewController+ZDYHook.m in Sources */,
+				1944B6B01EDEBA010087FFA3 /* SRRequestLogFM.m in Sources */,
+				1944B6AB1EDEBA000087FFA3 /* SRRequestLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -803,15 +956,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19C3A1BD1ECEFCE1004464D4 /* UINavigationController+ZDYHook.m in Sources */,
-				19C3A1B81ECEFCE1004464D4 /* UIApplication+ZDYHook.m in Sources */,
-				19C3A1C21ECEFCE1004464D4 /* UIViewController+ZDYHook.m in Sources */,
-				193042201ECEE28700EE9476 /* ViewController.m in Sources */,
-				193042211ECEE28700EE9476 /* AppDelegate.m in Sources */,
+				1944B6D11EDEBC7F0087FFA3 /* User.m in Sources */,
+				1944B6CA1EDEBA010087FFA3 /* ViewController.m in Sources */,
+				1944B6BB1EDEBA010087FFA3 /* UINavigationController+ZDYHook.m in Sources */,
+				1944B6B61EDEBA010087FFA3 /* UIApplication+ZDYHook.m in Sources */,
 				193042221ECEE28700EE9476 /* DYTestProject.xcdatamodeld in Sources */,
 				193042231ECEE28700EE9476 /* main.m in Sources */,
-				19C3A1B31ECEFCE1004464D4 /* SRRequestLogFM.m in Sources */,
-				19C3A1AE1ECEFCE1004464D4 /* SRRequestLog.m in Sources */,
+				1944B6C51EDEBA010087FFA3 /* AppDelegate.m in Sources */,
+				1944B6C01EDEBA010087FFA3 /* UIViewController+ZDYHook.m in Sources */,
+				1944B6B11EDEBA010087FFA3 /* SRRequestLogFM.m in Sources */,
+				1944B6AC1EDEBA000087FFA3 /* SRRequestLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -953,6 +1107,7 @@
 				);
 				INFOPLIST_FILE = DYTestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zerody.DYTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -971,6 +1126,7 @@
 				);
 				INFOPLIST_FILE = DYTestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zerody.DYTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

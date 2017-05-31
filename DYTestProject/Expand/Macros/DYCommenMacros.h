@@ -146,7 +146,7 @@
 
 /** 获取一段时间间隔 */
 #define kStartTime CFAbsoluteTime start = CFAbsoluteTimeGetCurrent();
-#define kEndTimeNSLog (@"Time: %f",CFAbsoluteTimeGetCurrent() - start)
+#define kEndTimeNSLog(info) DYLog(@"%@ - Time: %f",info,CFAbsoluteTimeGetCurrent() - start)
 
 
 

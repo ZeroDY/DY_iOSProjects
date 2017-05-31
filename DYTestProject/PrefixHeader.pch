@@ -15,6 +15,7 @@
 #import <AFNetworking.h>
 #import <YYModel.h>
 #import <YYImage.h>
+#import <YYWebImage.h>
 #import "DYCommenMacros.h"
 
 // Include any system framework and library headers here that should be included in all compilation units.
