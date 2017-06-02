@@ -57,6 +57,17 @@
 #endif
 
 
+//NSDictionary *infoDic = [[NSBundle mainBundle] infoDictionary];
+//
+//// 获取App的版本号
+//NSString *appVersion = [infoDic objectForKey:@"CFBundleShortVersionString"];
+//
+//// 获取App的build版本
+//NSString *appBuildVersion = [infoDic objectForKey:@"CFBundleVersion"];
+//
+//// 获取App的名称
+//NSString *appName = [infoDic objectForKey:@"CFBundleDisplayName"];
+
 /** 适配*/
 #define DYiOS_7_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
 #define DYiOS_8_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
